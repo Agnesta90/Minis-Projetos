@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+*{
+   margin: 0%;
+   padding: 0%;
+   font-family: 'Outfit','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 97vh;
+   background-color:hsl(217, 54%, 11%) ;
+}
+main{
+   background-color: hsl(216, 50%, 16%);
+   padding: 25px;
+   border-radius: 10px;
+   color: white;
+   width: 299px;
+   box-shadow: 0px 12px 15px 20px #0b1626;
+}
+#principal{
+   width: 300px;
+   border-radius: 10px;
+}
+#conteiner{
+   display: flex;
+   position: relative;
+}
+#sobreposicao{
+   position: absolute;
+   background-color: rgba(0, 255, 255, 0.507);
+   border-radius: 10px;
+}
+#caixa{
+   background-image: url(images/icon-view.svg);
+   background-size: 100px;
+   background-repeat: no-repeat;
+   height: auto;
+   transform: translate(33%, 35%);
+}
+#conteiner:hover #sobreposicao, #caixa{
+   width: 100%;
+   height: 100%;
+   
+}
+h2{
+   padding: 10px 0px;
+   font-weight: 600;
+}
+h2:hover{
+   color: hsl(178, 100%, 50%);
+}
+p{
+   font-weight: 300;
+   color: rgba(255, 255, 255, 0.46);
+   
+}
+#fist{
+   display: flex;
+   flex-grow: 1;
+   display: flex;
+   justify-content: space-between;
+}
+#fist section{
+   display: flex;
+   margin: 20px 0px;
+}
+#fist img{
+   margin-right: 6px;
+   width: auto;
+   height: 20px;
+}
+#avatar{
+   width: 35px;
+   border: 1px solid white;
+   border-radius: 50%;
+   margin: 10px 0px;
+}
+#second{
+   display: flex;
+}
+#second img{
+   margin-top: 21px;
+}
+#second p{
+   padding: 27px 13px 0px 13px;
+}
+#second span{
+   color: hsl(0, 0%, 100%);
+}
+#second span:hover{
+   color: hsl(178, 100%, 50%);
+}

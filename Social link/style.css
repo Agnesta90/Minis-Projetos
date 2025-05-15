@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+@font-face {
+   font-family: 'Inter';
+   src: url('fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+*{
+   font-family:'Inter', 'Lucida Sans', 'Lucida Sans Regular', ;
+}
+body{
+   background-color: hsl(0, 0%, 8%);
+   color: white;
+   text-align: center;
+   font-family:'Inter', 'Courier New', Courier, monospace;
+   display: flex;            
+   align-items: center; 
+   justify-content: center;
+   height: 97vh;
+}
+main{
+   width: 300px;
+   background-color: hsl(0, 0%, 12%);
+   border-radius: 10px;
+   padding: 30px 30px 20px 30px;
+}
+img{
+   border-radius: 100px;
+   width: 80px;
+}
+h2{
+   margin-bottom: 0;
+}
+p{
+   font-size: 14px;
+   margin: 5px 0px 27px 0px;
+   
+}
+p:first-of-type{ /*serve para 1° frase*/
+   font-weight: 600;
+}
+div{
+   background-color: hsl(0, 0%, 20%);
+   border-radius: 10px;
+   padding: 15px;
+   font-size: 14px;
+   font-weight: 600;
+   margin-bottom: 15px;
+}
+div:hover{
+   background-color:hsl(75, 94%, 57%);
+   color: black;
+}
