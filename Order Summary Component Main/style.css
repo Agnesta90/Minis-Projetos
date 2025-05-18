@@ -12,9 +12,12 @@ body{
    justify-content: center;
    width: 100vw;
    height: 100vh;
-   background-color: hsl(225, 100%, 94%);
+   background-image: url(images/pattern-background-desktop.svg);
+   background-repeat: no-repeat;
 }
-
+main{
+   box-shadow: -1px 12px 20px 3px hsl(245deg 73.63% 51.59% / 32%);
+}
 img{
    width: 100%;
 }
@@ -27,7 +30,7 @@ div p{
    font-size: 16px;
    font-weight: 500;
    color: rgba(0, 0, 0, 0.493);
-   padding: 14px 0px;
+   padding: 17px 0px;
    line-height: 0.8cm;
 }
 article img{
@@ -38,7 +41,7 @@ article img{
 article{
    display: flex;
    background-color: rgba(224, 232, 255, 0.753);
-   padding: 13px 20px;
+   padding: 20px;
    border-radius: 15px;
 }
 #one{
@@ -79,7 +82,8 @@ section:hover{
 }
 @media (min-width:450px){
    main {
-      width: 450px;
+      max-width: 450px;
+      max-height: 669px;
       border-radius: 20px;
       overflow: hidden;
       background-color: hsl(225, 100%, 98%);
@@ -90,7 +94,7 @@ section:hover{
       padding: 20px 13px;
    }
    section{
-      margin: 25px 0px;
+      margin: 30px 0px;
       text-align: center;
    }
 }
