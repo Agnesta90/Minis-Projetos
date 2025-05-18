@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+   margin: 0%;
+   padding: 0%;
+   font-family: 'Red Hat Display','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100vw;
+   height: 100vh;
+   background-color: hsl(225, 100%, 94%);
+}
+
+img{
+   width: 100%;
+}
+
+div h2{
+   font-weight: 900;
+   color: hsl(223, 47%, 23%);
+}
+div p{
+   font-size: 16px;
+   font-weight: 500;
+   color: rgba(0, 0, 0, 0.493);
+   padding: 14px 0px;
+   line-height: 0.8cm;
+}
+article img{
+   width: 50px;
+   height: 50px;
+   
+}
+article{
+   display: flex;
+   background-color: rgba(224, 232, 255, 0.753);
+   padding: 13px 20px;
+   border-radius: 15px;
+}
+#one{
+   width: 100px;
+   padding: 2px 12px;
+   font-weight: 700;
+}
+#two{
+   margin-left: auto;
+   padding-top: 10px;
+}
+a{
+   font-weight: 700;
+}
+#two a:hover{
+   color: hsla(245, 75%, 52%, 0.655);
+   text-decoration: none;
+}
+section{
+   background-color: hsl(245, 75%, 52%);
+   color: hsl(225, 100%, 98%);
+   font-weight: 700;
+   border-radius: 10px;
+   padding: 15px;
+   box-shadow: -1px 12px 20px 3px hsl(245deg 73.63% 51.59% / 54%);
+}
+section:hover{
+   background-color: hsla(245, 75%, 52%, 0.655);
+}
+#footer{
+   padding: 0px;
+   font-size: 16px;
+   font-weight: 900;
+   color: rgba(0, 0, 0, 0.493);
+}
+#footer:hover{
+   color: hsl(223, 47%, 23%);
+}
+@media (min-width:450px){
+   main {
+      width: 450px;
+      border-radius: 20px;
+      overflow: hidden;
+      background-color: hsl(225, 100%, 98%);
+   }
+   div{
+      text-align: center;
+      margin: 0px 32px;
+      padding: 20px 13px;
+   }
+   section{
+      margin: 25px 0px;
+      text-align: center;
+   }
+}
+@media (max-width:449px){
+   main{
+      width: 90%;
+      background-color: hsl(225, 100%, 98%);
+      border-radius: 20px;
+      overflow: hidden;
+      background-color: hsl(225, 100%, 98%);
+   }
+   div{
+      text-align: center;
+      margin: 0px 20px;
+      padding: 25px 10px;
+   }
+   div p{
+      max-width: 260px;
+      margin: auto;
+   }
+   section{
+      margin: 20px 0px;
+      text-align: center;
+      
+   }
+}
