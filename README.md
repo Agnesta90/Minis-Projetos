@@ -9,3 +9,5 @@
 <a href="https://agnesta90.github.io/Minis-Projetos/Social%20link/">Social Link</a>
 
 <a href="https://agnesta90.github.io/Minis-Projetos/Summay/">Summay</a>
+
+<a href="https://agnesta90.github.io/Minis-Projetos/Order%20Summary%20Component%20Main/">Order Summary Component Main</a>
