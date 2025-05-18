@@ -21,7 +21,7 @@ img{
    width: 100%;
 }
 
-div h1{
+div h2{
    font-weight: 900;
    color: hsl(223, 47%, 23%);
 }
@@ -39,7 +39,7 @@ article img{
 }
 article{
    display: flex;
-   background-color: rgba(224, 232, 255, 0.753);
+   background-color: rgba(224, 232, 255, 0.425);
    padding: 20px;
    border-radius: 15px;
 }
@@ -83,7 +83,6 @@ section:hover{
    body{
       background-image: url(images/pattern-background-desktop.svg);
       background-repeat: no-repeat;
-      background-size: cover;
    }
    main {
       width: 450px;
@@ -93,7 +92,7 @@ section:hover{
    }
    div{
       text-align: center;
-      margin: 0px 32px;
+      margin: 5px 34px;
       padding: 20px 13px;
    }
    section{
@@ -105,7 +104,6 @@ section:hover{
    body{
       background-image: url(images/pattern-background-mobile.svg);
       background-repeat: no-repeat;
-      background-size: cover;
    }
    main{
       width: 90%;
