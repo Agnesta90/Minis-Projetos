@@ -12,17 +12,16 @@ body{
    justify-content: center;
    width: 100vw;
    height: 100vh;
-   background-image: url(images/pattern-background-desktop.svg);
-   background-repeat: no-repeat;
 }
 main{
-   box-shadow: -1px 12px 20px 3px hsl(245deg 73.63% 51.59% / 32%);
+   box-shadow: -1px 12px 20px 3px rgb(78 79 81 / 21%);
+   background-color: white;
 }
 img{
    width: 100%;
 }
 
-div h2{
+div h1{
    font-weight: 900;
    color: hsl(223, 47%, 23%);
 }
@@ -66,7 +65,7 @@ section{
    font-weight: 700;
    border-radius: 10px;
    padding: 15px;
-   box-shadow: -1px 12px 20px 3px hsl(245deg 73.63% 51.59% / 54%);
+   box-shadow: -1px 12px 20px 3px rgba(224, 232, 255, 0.753);
 }
 section:hover{
    background-color: hsla(245, 75%, 52%, 0.655);
@@ -81,12 +80,16 @@ section:hover{
    color: hsl(223, 47%, 23%);
 }
 @media (min-width:450px){
+   body{
+      background-image: url(images/pattern-background-desktop.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
    main {
-      max-width: 450px;
+      width: 450px;
       max-height: 669px;
       border-radius: 20px;
       overflow: hidden;
-      background-color: hsl(225, 100%, 98%);
    }
    div{
       text-align: center;
@@ -99,12 +102,16 @@ section:hover{
    }
 }
 @media (max-width:449px){
+   body{
+      background-image: url(images/pattern-background-mobile.svg);
+      background-repeat: no-repeat;
+      background-size: cover;
+   }
    main{
       width: 90%;
-      background-color: hsl(225, 100%, 98%);
+      background-color: white;
       border-radius: 20px;
       overflow: hidden;
-      background-color: hsl(225, 100%, 98%);
    }
    div{
       text-align: center;
