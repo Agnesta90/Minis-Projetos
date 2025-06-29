@@ -31,12 +31,11 @@ main{
 }
 #sobrepossicao{
    width: 100%;
-   background-color: hsla(277, 64%, 61%, 0.49);
+   background-color: hsla(277, 70%, 46%, 0.597);
    position: absolute;
    
 }
 h1{
-   margin: 15px;
    color: hsl(0, 0%, 100%);
    font-family: 'Inter', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -45,8 +44,8 @@ span{
 }
 p{
    color: hsla(0, 0%, 100%, 0.6);
-   margin: 20px;
-   font-size: 15px;
+   margin-bottom: 20px;
+   font-size: 17px;
    font-family: 'Lexend Deca', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
    line-height: 1.8em;
 }
@@ -81,11 +80,16 @@ article > span{
       width: 100%;
    }
    main{
-      padding: 20px 20px 0px 20px;
+      margin: 20px;
+      padding: 30px 31px 0px 31px;
       text-align: center;
+   }
+   h1{
+      margin-bottom: 30px;
    }
    article{
       margin: 30px;
+      text-align: center;
    }
    #second{
       display: none;
@@ -141,20 +145,22 @@ article > span{
       height: 100%;
    }
    main{
-      margin: 50px ;
+      margin: 37px;
+      padding: 22px;
    }
    h1{
       margin-bottom: 30px ;
+      font-size: 40px;
    }
    p{
-      margin-bottom: 50px;
+      margin-bottom: 68px;
+      padding-right: 40px;
+      font-size: 15px;
    }
    footer{
       display: flex;
-      text-align: center;
-      margin-top: 70px;
    }
    article{
-      margin-left: 20px;
+      margin-right: 67px;
    }
 }
