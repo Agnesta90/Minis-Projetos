@@ -126,15 +126,15 @@ article > span{
 }
 /* DESKTOP */
 @media screen and  (min-width: 1121px){
-   #fist{
-      display: none;
-   }
    #principal{
       display: flex;
       max-width: 1100px;
       height: 446px;
       
       background-color: hsl(244, 38%, 16%);
+   }
+   #fist{
+      display: none;
    }
    #second{
       width: 50%;
