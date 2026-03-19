@@ -24,7 +24,7 @@ text.forEach((e,index) => {
    const img2 = 'images/icon-minus.svg'
    const caixa = document.createElement('img')
    caixa.setAttribute('class', 'botao')
-   caixa.alt = 'botão em formato de mais, ou menos'
+   caixa.alt = 'Expandir resposta'
    caixa.src = img1
    button.appendChild(caixa)
 
