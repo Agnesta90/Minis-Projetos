@@ -14,26 +14,29 @@ text.forEach((e,index) => {
    const article = document.createElement('article')
    conteiner.appendChild(article)
    
-   const div = document.createElement('div')
-   div.setAttribute('class','caixa')
-   div.innerHTML = `<h3>${e.Titulo}</h3>`
-   article.appendChild(div)
+   const button = document.createElement('button')
+   button.setAttribute('class','caixa')
+   button.setAttribute('id', `pergunta${index+1}`)
+   button.innerHTML = `<h2>${e.Titulo}</h2>`
+   article.appendChild(button)
 
    const img1 = 'images/icon-plus.svg'
    const img2 = 'images/icon-minus.svg'
    const caixa = document.createElement('img')
    caixa.setAttribute('class', 'botao')
+   caixa.alt = 'botão em formato de mais, ou menos'
    caixa.src = img1
-   div.appendChild(caixa)
+   button.appendChild(caixa)
 
    const span = document.createElement('span')
    span.setAttribute('class', 'caixa2')
+   span.setAttribute('id', `resposta${index+1}`)
    span.innerHTML = `<p>${e.Texto}</p>`
    article.appendChild(span)
 
    let aberto = false
 
-   caixa.addEventListener('click', () => {
+   button.addEventListener('click', () => {
       aberto = !aberto
       caixa.src = aberto ? img2 : img1
       span.classList.toggle('caixa2')
