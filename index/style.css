@@ -63,7 +63,7 @@ a{
 @media (max-width: 650px) {
    body{
       width: 99vw;
-      height: 97vh;
+      height: 97dvh;
       background-color: #210635;
    }
    #co{
